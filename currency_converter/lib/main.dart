@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext contest){
     return MaterialApp(
       home: CurrencyConverterHome(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
